@@ -28,10 +28,10 @@ const Header = () => {
                                 </Nav.Link>
                             </Nav.Item>
                         ))}
-                        <Nav.Item className="d-none d-md-flex">
-                            <a href="tel:+919154981842">
+                        <Nav.Item className="d-none d-md-flex ">
+                            <a href="tel:+919154981842" style={{border: "none" , marginLeft: "10px"}}>
                                 <button type="button" className="btn btn-rounded-3" style={{ marginRight: '10px' }}>
-                                    <img src={callButton} className="img-fluid" alt="call" />
+                                    <img src={callButton} className="img-fluid " alt="call" />
                                     9154981842
                                 </button>
                             </a>

@@ -46,7 +46,7 @@ const Main = () => {
                     <div className='container'>
                         <div className='row'>
                             <div className='col-lg-4 col-md-5'>
-                                <div className='banner_form  d-md-block wow fadeInUp rounded-3 position-absolute'>
+                                <div className='banner_form  d-md-block wow fadeInUp rounded-3 '>
                                     <h5 className='mb-3'>Request a callback</h5>
                                     <div className='loader' id="loader1"></div>
 
