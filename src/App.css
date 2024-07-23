@@ -115,7 +115,41 @@ grid-template-columns: 40% 1fr;
   height: 60px;
   border-radius: 0 10px 10px 0 !important;
 }
+h3{
+  font-family: "Baskervville SC", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+h3::before{
+  content: "";
+    background-color: #3f4e60;
+    width: 40px;
+    height: 2px;
+    top: 0;
+    bottom: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 10px;
+}
+h3::after{
+  content: "";
+    background-color: #3f4e60;
+    width: 40px;
+    height: 2px;
+    top: 0;
+    bottom: 0;
+    flex-shrink: 0;
+    position: relative;
+    margin-left: 10px;
+}
+
+
 @media screen and (max-width: 500px) {
+  h3{
+    justify-content: center !important;
+  }
   .navbar .container a >  img{
     width: 100px;
   }
