@@ -42,32 +42,11 @@ const Main = () => {
                         <img className="img-fluid w-100" src={mainBannerImage} alt="banner" />
                     </picture>
                 </div>
-                <div className='banner_caption mb-5 mb-md-0 d-flex align-items-end align-items-md-center top-0 start-0 end-0 bottom-0'>
+                <div className='banner_caption  mb-md-0 d-flex align-items-end align-items-md-center top-0 start-0 end-0 bottom-0'>
                     <div className='container'>
                         <div className='row'>
-                            <div class="col-lg-7 col-md-6 mt-auto mb-lg-0 text-white">
-
-                                <div class="banner_head wow fadeInUp mt-lg-0 mb-xl-4">
-                                    <h3>
-                                        {/* <!--<span>1</span>st-->  */}
-                                    </h3>
-                                </div>
-                                <div class="bhk_div rounded-pill px-3 py-1 mb-3 wow fadeInUp">
-
-
-                                </div>
-                                <div class="d-flex align-items-center mb-3 wow fadeInUp">
-                                    {/* <!--<img src="assets/images/loc_icon.svg" alt="icon">--> */}
-                                    <p class="mb-0 ms-2"></p>
-                                </div>
-                                <div class="banner_rera rounded-3 py-1 px-3 mb-3 mb-xxl-0 wow fadeInUp">
-                                    <p class="mb-0"></p>
-                                </div>
-
-                            </div>
-                            <div className='col-lg-1 col-md-1 d-none d-md-block'></div>
                             <div className='col-lg-4 col-md-5'>
-                                <div className='banner_form mb-xl-5 d-none d-md-block wow fadeInUp rounded-3'>
+                                <div className='banner_form  d-md-block wow fadeInUp rounded-3 position-absolute'>
                                     <h5 className='mb-3'>Request a callback</h5>
                                     <div className='loader' id="loader1"></div>
 
@@ -106,7 +85,7 @@ const Main = () => {
                         <div className="col-lg-6 mb-lg-0 mb-3">
                             <div className="over-txt">
                                 <div className="sec_head wow fadeInUp">
-                                    <h3 className="justify-content-start">OVERVIEW</h3>
+                                    <h3 className="justify-content-start text-center mb-3">OVERVIEW</h3>
                                 </div>
                                 <p className="wow fadeInUp">Looking for a serene and peaceful neighborhood to call home or a great investment opportunity? Look no further than our Gated Community Villa Project in Medchal, Hyderabad!
 
@@ -132,9 +111,9 @@ const Main = () => {
             <section className="proj_sec" id="projHighlight">
                 <div className="container py-md-5 py-4">
                     <div className="sec_head wow fadeInUp">
-                        <h3>KOTAS VIRGINIA CITY HIGHLIGHTS</h3>
+                        <h3 className="text-center">KOTAS VIRGINIA CITY HIGHLIGHTS</h3>
                     </div>
-                    <p className="mb-lg-3 mb-0 wow fadeInUp text-center">
+                    <p className="mb-lg-3 mb-0 wow fadeInUp text-center ">
                         Experience the finest living at the finest location.
 
                     </p>
@@ -143,9 +122,9 @@ const Main = () => {
                             <div className="proj_div d-flex justify-content-between align-items-center wow fadeInUp">
                                 <img src={proj1} className="img-fluid" alt="icon" />
                                 <div>
-                                    <h5>
+                                    <h5 className="text-center mb-3">
                                         The only ongoing KOTAS Virginia project of Medchal</h5>
-                                    <p className="mb-0">
+                                    <p className="mb-0 text-center">
                                         With all the villas situated out of the city, APR INFRA offers a prime location advantage of Bachupally!
 
 
@@ -157,9 +136,9 @@ const Main = () => {
                             <div className="proj_div d-flex justify-content-between align-items-center wow fadeInUp">
                                 <img src={proj2} className="img-fluid" alt="icon" />
                                 <div>
-                                    <h5>Subscribe to uninterrupted views for life
+                                    <h5 className="text-center mb-4">Subscribe to uninterrupted views for life
                                     </h5>
-                                    <p className="mb-0">
+                                    <p className="text-center mb-0">
                                         Nestled amidst majestic hills and scenic lakes, life at APR Hillside Villas enables you to wake up to amazing views every day.
 
 
@@ -171,8 +150,8 @@ const Main = () => {
                             <div className="proj_div d-flex justify-content-between align-items-center wow fadeInUp">
                                 <img src={proj3} className="img-fluid" alt="icon" />
                                 <div>
-                                    <h5>4 BHK Triplex villas with a home theater</h5>
-                                    <p className="mb-0">
+                                    <h5 className="text-center mb-4">4 BHK Triplex villas with a home theater</h5>
+                                    <p  className="mb-0 text-center">
                                         When every home in Bachupally is an apartment, own luxury like never before with APR Infra Villas.
 
 
@@ -184,10 +163,10 @@ const Main = () => {
                             <div className="proj_div d-flex justify-content-between align-items-center wow fadeInUp">
                                 <img src={proj4} className="img-fluid" alt="icon" />
                                 <div>
-                                    <h5>
+                                    <h5 className="text-center mb-4">
                                         Like-minded community
                                     </h5>
-                                    <p className="mb-0">
+                                    <p className="mb-0 text-center">
                                         Stay successful being surrounded by like-minded people. APR Group Villas homes feature the perfect community for you!
                                     </p>
                                 </div>
@@ -238,73 +217,73 @@ const Main = () => {
             <section className="ameniti_sec py-md-5 py-4" id="ameniti">
                 <div className="container">
                     <div className="sec_head wow fadeInUp">
-                        <h3 className="mb-5">AMENITIES</h3>
+                        <h3 className="mb-5 txt-center">AMENITIES</h3>
                     </div>
                     <div className="row gx-3 gy-4">
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={banquetHall} alt="icon" />
-                                <p className="mb-0">Banquet Hall</p>
+                                <p className="mb-0 txt-center">Banquet Hall</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div wow fadeInUp">
                                 <img src={kidsArea} alt="icon" />
-                                <p className="mb-0">Kid’s Play Area</p>
+                                <p className="mb-0 txt-center">Kid’s Play Area</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={swimmingPool} alt="icon" />
-                                <p className="mb-0">Swimming Pool</p>
+                                <p className="mb-0 txt-center">Swimming Pool</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div wow fadeInUp">
                                 <img src={gym} alt="icon" />
-                                <p className="mb-0"> Gym</p>
+                                <p className="mb-0 txt-center"> Gym</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={tennisCourt} alt="icon" />
-                                <p className="mb-0">Tennis Court</p>
+                                <p className="mb-0 txt-center">Tennis Court</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div wow fadeInUp">
                                 <img src={security} alt="icon" />
-                                <p className="mb-0">24x7 Security</p>
+                                <p className="mb-0 txt-center">24x7 Security</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={walkingTrack} alt="icon" />
-                                <p className="mb-0">Walking Track</p>
+                                <p className="mb-0 txt-center">Walking Track</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={shuttle} alt="icon" />
-                                <p className="mb-0">Shuttle Court (Out Door)</p>
+                                <p className="mb-0 txt-center">Shuttle Court (Out Door)</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={basketBall} alt="icon" />
-                                <p className="mb-0">Basketball Practice Court</p>
+                                <p className="mb-0 txt-center">Basketball Practice Court</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div  wow fadeInUp">
                                 <img src={landscape} alt="icon" />
-                                <p className="mb-0">Landscape</p>
+                                <p className="mb-0 txt-center">Landscape</p>
                             </div>
                         </div>
                         <div className="col-6 col-md-4 col-lg-3">
-                            <div className="ameniti_div d-flex align-items-center wow fadeInUp">
+                            <div className="ameniti_div wow fadeInUp">
                                 <img src={Supermarket} alt="icon" />
-                                <p className="mb-0">Supermarket</p>
+                                <p className="mb-0 txt-center">Supermarket</p>
                             </div>
                         </div>
 

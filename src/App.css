@@ -26,6 +26,9 @@ body {
   border: 2px solid #ad9175;
   padding: 30px;
   background-color: #fff;
+  top: 15%;
+  right: 10%;
+
 }
 
 form {
@@ -63,4 +66,33 @@ footer {
   width: 80%;
   height: 402px;
   margin: auto;
+}
+.txt-center{
+  text-align: center;
+}
+.proj_div{
+  border: 1px solid #CAA88A;
+  padding: 10px;
+  display: grid;
+  border-radius: 4px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar .container a >  img{
+    width: 100px;
+  }
+  .banner_form{
+  position: static !important;
+  margin-top: 20px;
+  }
+  .banner_sec {
+display: grid;
+  }
+  .ameniti_div{
+    display: grid !important;
+    gap: 10px;
+    justify-items: center;
+  }
+
 }
